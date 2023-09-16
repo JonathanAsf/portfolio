@@ -7,8 +7,6 @@ strong{
     text-align: center;
     margin: 3em;
     font-size: 3em;
-    /* font-family: ; */
-    /* font-weight: ; */
 }
 
 .apresentacao__curriculo{
@@ -42,7 +40,7 @@ strong{
 }
 
 .github__link{
-    color:#F6F4EB;
+    color:var(--cor-secundaria);
     display:grid;
 
 }
@@ -59,4 +57,9 @@ strong{
     text-align: justify;
     font-size: 2rem;
     list-style-type:square;
+}
+
+
+.github__link:hover{
+    color: var(--cor-terciaria);
 }
