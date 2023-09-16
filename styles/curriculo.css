@@ -1,0 +1,62 @@
+strong{
+    color:#4E4FEB;
+}
+
+
+.apresentacao__titulo{
+    text-align: center;
+    margin: 3em;
+    font-size: 3em;
+    /* font-family: ; */
+    /* font-weight: ; */
+}
+
+.apresentacao__curriculo{
+    align-items: center;
+    text-align: center;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    padding: 1% 15%;
+}
+
+.apresentacao__conteudo__curriculo{
+    height: 100vh;
+    display:grid;
+    align-items: center;
+    padding: 2em;
+}
+
+.titulo__linguagens{
+    padding: 2rem 0;
+    list-style-type:none;
+    font-size: 2rem;
+
+}
+.linguagens__softwares{
+    text-align: justify;
+    padding-bottom: 0.5em;
+}
+
+.github{
+    padding: 3rem;
+}
+
+.github__link{
+    color:#F6F4EB;
+    display:grid;
+
+}
+
+.apresentacao__conteudo__texto{
+    text-align:left;
+}
+
+.apresentacao__conteudo__subtitulo{
+    font-size: 2rem;
+}
+
+.idiomas{
+    text-align: justify;
+    font-size: 2rem;
+    list-style-type:square;
+}
