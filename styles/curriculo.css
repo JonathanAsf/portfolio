@@ -27,10 +27,27 @@ ul{
     padding: 1rem 0 1rem ;
 }
 
+.github__link{
+    text-decoration: underline;
+    color: var(--cor-secundaria);
+}
+
 .apresentacao__conteudo__subtitulo{
     font-size: 2rem;
 }
 
 .idiomas{
     font-size: 2rem;
+}
+
+.github__link:hover{
+    color: rgb(0, 128, 128);
+}
+@media screen and (max-width: 768px){
+    .apresentacao__conteudo__texto{
+        font-size: 1.5rem;
+    }
+    .idioma{
+        font-size: 1.5rem;
+    }
 }
