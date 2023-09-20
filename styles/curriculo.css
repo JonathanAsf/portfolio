@@ -1,52 +1,30 @@
-strong{
-    color:#4E4FEB;
+.apresentacao__imagem{
+    padding: 0 50% 0;
+    width: 20rem;
+    height: 20rem;
 }
 
-
-.apresentacao__titulo{
-    text-align: center;
-    margin: 3em;
-    font-size: 3em;
+ul{
+    line-height: 3rem;
+}
+.apresentacao{
+    flex-direction: column;
 }
 
-.apresentacao__curriculo{
+.apresentacao__conteudo{
     align-items: center;
-    text-align: center;
-    display:grid;
-    grid-template-columns: 50% 50%;
-    padding: 1% 15%;
+    width: 75%
 }
-
-.apresentacao__conteudo__curriculo{
-    height: 100vh;
-    display:grid;
-    align-items: center;
-    padding: 2em;
+.apresentacao__conteudo__titulo{
+    text-align: center;
 }
 
 .titulo__linguagens{
-    padding: 2rem 0;
-    list-style-type:none;
-    font-size: 2rem;
-
-}
-.linguagens__softwares{
-    text-align: justify;
-    padding-bottom: 0.5em;
+    list-style: square;
 }
 
 .github{
-    padding: 3rem;
-}
-
-.github__link{
-    color:var(--cor-secundaria);
-    display:grid;
-
-}
-
-.apresentacao__conteudo__texto{
-    text-align:left;
+    padding: 1rem 0 1rem ;
 }
 
 .apresentacao__conteudo__subtitulo{
@@ -54,12 +32,5 @@ strong{
 }
 
 .idiomas{
-    text-align: justify;
     font-size: 2rem;
-    list-style-type:square;
-}
-
-
-.github__link:hover{
-    color: var(--cor-terciaria);
 }
