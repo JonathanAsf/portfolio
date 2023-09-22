@@ -1,0 +1,43 @@
+.apresentacao__titulo{
+    display: block;
+    margin: 2% 30% 0 30%;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.apresentacao{
+    gap: 1rem;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 1.5rem;
+}
+.apresentacao__conteudo{
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.apresentacao__imagem{
+    width: 100%;
+}
+.botao__linguagem{
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+
+    .apresentacao{
+            gap: 0rem;
+    }
+    .apresentacao__titulo{
+        font-size: 1.5rem;
+    }
+    .apresentacao__conteudo__titulo{
+        font-size: 1.25rem;
+        margin-bottom: 15%;
+    }
+}
