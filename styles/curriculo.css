@@ -45,6 +45,15 @@ ul{
     color: rgb(0, 128, 128);
 }
 @media screen and (max-width: 768px){
+
+
+    .apresentacao__conteudo{
+        align-items:start;
+        width: 90%;
+    }
+    .apresentacao__conteudo__texto{
+        text-align:justify;
+    }
     .apresentacao__imagem{
         width: 75%;
         height: 75%;
