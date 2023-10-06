@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root {
-    --cor-primaria: #000000;
+    --cor-primaria: #001C30;
     --cor-secundaria: #F6F4EB;
     --cor-terciaria: #4E4FEB;
-    --cor-hover: #262626;
+    --cor--background-hover: #4E4FEB;
+    --cor--texto-hover: #a4a4e2fb;
+
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -20,11 +22,12 @@ body{
     line-height: 2.25em;
 }
 .cabecalho{
-    padding: 2% 0% 0% 15%;
+    padding-top: 2rem;
 }
 .cabecalho__menu{
     display: flex;
     gap: 5rem;
+    justify-content: center;
 }
 .cabecalho__menu__link{
     font-family: var(--fonte-secundaria);
@@ -32,7 +35,12 @@ body{
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
-}
+    padding: 20px 40px;
+    border: solid 1px #a4a4e2fb;
+    border-radius: 8px;
+    
+    }
+
 .apresentacao{
     padding: 5% 15%;
     display: flex;
@@ -96,16 +104,23 @@ body{
 .rodape{
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
-    padding: 1.5rem;
+    padding: 1rem;
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 400;
+    background-image: url(../assets/background.jpg);
 }
 .apresentacao__links__botao:hover{
-    background-color: var(--cor-hover);
-    color: #008080;
+    background-color: var(--cor--background-hover);
+    color: var(--cor--texto-hover);
 }
+
+.cabecalho__menu__link:hover{
+    color: var(--cor--texto-hover);
+    background-color: var(--cor--background-hover);
+}
+
 
 @media screen and (max-width: 768px){
     .cabecalho{
@@ -121,13 +136,18 @@ body{
 
     .cabecalho__menu__link{
         border: 1px dotted var(--cor-terciaria);
+       
     }
-
+    
     .apresentacao{
         flex-direction: column-reverse;
         padding: 5%;
     }
 
+    .apresentacao__imagem{
+        text-align: center;
+        padding-left: 2rem;
+    }
     .apresentacao__conteudo{
         width: auto;
     }
@@ -153,7 +173,12 @@ body{
         width: 100%;
     }
     .rodape{
-        padding: 1rem;
+        margin-top: 2rem;
         font-size: 1rem;
+    }
+
+    .cabecalho__menu__link:hover{
+        color: #a4a4e2fb;
+        background-color: #4E4FEB;
     }
 }

@@ -34,7 +34,15 @@ ul{
 }
 
 .apresentacao__conteudo__subtitulo{
+    width: 100%;
+    margin-top: 1.5rem;
     font-size: 2rem;
+    text-align: left;
+}
+.apresentacao__conteudo ul{
+    width: 100%;
+    align-items:start;
+    text-align: left;
 }
 
 .idiomas{
