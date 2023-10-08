@@ -52,15 +52,22 @@ ul{
 .github__link:hover{
     color: rgb(0, 128, 128);
 }
-@media screen and (max-width: 768px){
 
-
+@media screen and (max-width: 1050px){
+    .cabecalho__menu{
+        gap: 2rem;
+        border: hidden;
+    }
+    .cabecalho__menu__link{
+        border: solid 0.5px;
+        padding: 1rem; 
+    }
     .apresentacao__conteudo{
         align-items:start;
         width: 90%;
     }
     .apresentacao__conteudo__texto{
-        text-align:justify;
+        text-align:start;
     }
     .apresentacao__imagem{
         width: 75%;
@@ -69,4 +76,7 @@ ul{
     .idiomas{
         font-size: 1.25rem;
     }
+}
+@media screen and (max-width: 768px){
+
 }

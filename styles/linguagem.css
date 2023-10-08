@@ -1,9 +1,12 @@
+body{
+    margin-top: 3rem;
+}
+
 .apresentacao__titulo{
     display: block;
     margin: 2% 30% 0 30%;
     text-align: center;
     font-size: 2rem;
-
 }
 
 .apresentacao{
@@ -22,22 +25,39 @@
 }
 
 .apresentacao__imagem{
-    width: 100%;
+    width: 75%;
 }
 .botao__linguagem{
     text-align: center;
 }
 
+@media screen and (max-width: 950px){
+
+    body{
+        margin: 0 5%;
+    }
+}
+
 @media screen and (max-width: 768px){
 
+    .body{
+        width: 100%;
+    }
     .apresentacao{
-            gap: 0rem;
+        gap: 0rem;
     }
     .apresentacao__titulo{
         font-size: 1.5rem;
+        margin: 2% 15% 0 15%;
     }
     .apresentacao__conteudo__titulo{
         font-size: 1.25rem;
         margin-bottom: 15%;
+    }
+
+    .apresentacao__imagem{
+        width: 50%;
+        text-align: center;
+        margin-right: 10%;
     }
 }
